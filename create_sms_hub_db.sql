@@ -120,7 +120,7 @@ VALUES ('test_group');
 INSERT INTO group_members (group_id, contact_id)
 VALUES (
   (SELECT id FROM groups WHERE name='test_group' LIMIT 1),
-  (SELECT id FROM contacts WHERE phone='539704495' LIMIT 1)
+  (SELECT id FROM contacts WHERE phone='12345678' LIMIT 1)
 );
 
 -- BATCH
